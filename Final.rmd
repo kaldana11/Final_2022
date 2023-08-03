@@ -268,7 +268,11 @@ effectivenessdrug = drugfish$estimate/(drugfish$estimate +1)*100
 print(effectivenessdrug)
 ```
 
-
+```{r}
+low=(drugfish$conf.int[1]/(drugfish$conf.int[1] +1))*100
+hi=(drugfish$conf.int[2]/(drugfish$conf.int[2] +1))*100
+options(digits=2)
+```
 
 
 
