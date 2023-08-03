@@ -274,7 +274,7 @@ hi=(drugfish$conf.int[2]/(drugfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
-
+The hi value is around 21.82 and the low value is around 4.60. The effectiveness of the vaccine on drugusers is 11.2%. Since it is less than 50%, it means it was not effective to drugusers. The odds ratio is 11. 
 
 
 
