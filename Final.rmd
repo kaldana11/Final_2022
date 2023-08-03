@@ -249,7 +249,16 @@ colPerc(table1)
 
 The total is 100. 88 drugusers got the vaccine and contracted covid19. 99.6% of drugusers got the placebo and were okay. 96.9% got the vaccine and were okay.
 
+## Druggies Inferential Results
 
+
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+drugfish <- fisher.test(table1)
+drugfish
+```
 
 
 
