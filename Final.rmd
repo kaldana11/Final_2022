@@ -235,7 +235,7 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+Less than a quarter of drug users got covid19 when taking the placebo.About 50 % of drugusers who took the vaccine were okay.500 or less are drugusers that make up about 25%.
 
 
 
