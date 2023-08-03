@@ -175,7 +175,15 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 Around 1500 gays were okay after receiving either the placebo or the vaccine.85% of gays got covid19 when given the vaccine. 
 
 
+## gays Numerical Results
 
+
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=gay)
+rowPerc(table1)
+colPerc(table1)
+```
 
 
 
