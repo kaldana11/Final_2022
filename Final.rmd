@@ -136,6 +136,16 @@ galsfish
 
 In the chi test our p value is 3e-04. We know 213 females were given the placebo and got covid19. In the fishers test our p value is 2e-04 and the odd ratio is 1.5. The confidence interval is 1.2 1.9. 
 
+```{r}
+effect <- galsfish$p.value/(galsfish$p.value +1)
+effectivenessgal = galsfish$estimate/(galsfish$estimate +1)*100
+print(effectivenessgal)
+```
+
+
+
+
+
 
 
 
