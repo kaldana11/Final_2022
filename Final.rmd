@@ -149,6 +149,8 @@ options(digits=2)
 ```
 
 
+For females the hi value is around 65.07 and the low value is 54.54.The effectiveness of the vaccine is 59.9 % which is more that the 50% mark to determine if it is effective. The odd ratio is 60. 
+
 
 
 
