@@ -213,7 +213,7 @@ hi=(gaysfish$conf.int[2]/(gaysfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
-
+The hi value is around 26.57 and the low value is around 7.60. The effectiveness of the vaccine to the gays is 15.4%. Since it is lower than 50%, it was not effective to the gays.The odds ratio is 15. 
 
 
 
