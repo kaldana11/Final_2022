@@ -142,7 +142,11 @@ effectivenessgal = galsfish$estimate/(galsfish$estimate +1)*100
 print(effectivenessgal)
 ```
 
-
+```{r}
+low=(galsfish$conf.int[1]/(galsfish$conf.int[1] +1))*100
+hi=(galsfish$conf.int[2]/(galsfish$conf.int[2] +1))*100
+options(digits=2)
+```
 
 
 
