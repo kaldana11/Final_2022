@@ -121,7 +121,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+There was 40% of gals who took the vaccine and got covid19. 2% of gals who took the placebo got covid19. The total is 100.
 
 
 ## LGBTQ
