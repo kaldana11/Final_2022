@@ -185,7 +185,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+50% of gays who got the placebo and 50% who got the vaccine were both okay. 3.5% got the vaccine and contracted covid19. The total is 100. 
 
 
 
