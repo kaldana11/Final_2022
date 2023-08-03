@@ -55,6 +55,18 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 This graph shows guys(males) and if they got COVID or not due to receiving the covid vaccine or the placebo. We see that males did not get as infected whether they took the vaccine or placebo. But the second graph when it is just males, we see those who got the placebo about 70% got COVID.
 
 
+## Males Numerical Results 
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=guy)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+
+
+
 ## Females
 
 
