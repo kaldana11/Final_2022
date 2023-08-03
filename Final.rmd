@@ -123,6 +123,21 @@ colPerc(table1)
 
 There was 40% of gals who took the vaccine and got covid19. 2% of gals who took the placebo got covid19. The total is 100.
 
+## Female Inferential Results
+
+
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+galsfish <- fisher.test(table1)
+galsfish
+```
+
+
+
+
+
 
 ## LGBTQ
 
