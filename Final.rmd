@@ -65,6 +65,14 @@ colPerc(table1)
 
 We see that 69.57% of males who took the placebo got covid19. Those who took the vaccine and were okay were about 49.52.When it is the 100% total and the males, we see only 2.55% got covid 19 with the placebo.
 
+## Males Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+guysfish <- fisher.test(table1)
+guysfish
+```
 
 
 
