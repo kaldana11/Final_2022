@@ -109,7 +109,7 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+We see that women who took the placebo and vaccine got a low percentage in contracting covid19.60% of gals who took the placebo got covid19. 50% of them were each okay depending if they took the placebo or vaccine. 
 
 
 
