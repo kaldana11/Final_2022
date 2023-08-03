@@ -199,7 +199,7 @@ gaysfish <- fisher.test(table1)
 gaysfish
 ```
 
-
+The chi squared test gave us a p value of 7e-08. 10 gays were given the placebo and got covid19. 1521 gays were given the vaccine and were okay. In the fishers test our p value is 1e-08. The odds ration os 0.18. The 95% confidence interval is 0.082 0.362.
 
 
 
