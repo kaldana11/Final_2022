@@ -207,6 +207,14 @@ effectivenessgays = gaysfish$estimate/(gaysfish$estimate +1)*100
 print(effectivenessgays)
 ```
 
+```{r}
+low=(gaysfish$conf.int[1]/(gaysfish$conf.int[1] +1))*100
+hi=(gaysfish$conf.int[2]/(gaysfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+
+
 
 
 
